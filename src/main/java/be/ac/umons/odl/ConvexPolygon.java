@@ -2,8 +2,9 @@ package be.ac.umons.odl;
 
 import java.awt.*;
 
-public class ConvexPolygon implements Drawable {
-	private final Point[] vertices;
+public class ConvexPolygon implements Drawable
+{
+	private final Point[] vertices; //vertices = sommet
 
 	public ConvexPolygon(Point[] vertices) {
 		this.vertices = vertices;
@@ -14,10 +15,12 @@ public class ConvexPolygon implements Drawable {
 	}
 
 	@Override
-	public void draw(Graphics g) {
+	public void draw(Graphics g)
+	{
 		int[] xPoints = new int[vertices.length];
 		int[] yPoints = new int[vertices.length];
-		for (int i = 0; i < vertices.length; i++) {
+		for (int i = 0; i < vertices.length; i++)
+		{
 			Point vertex = vertices[i];
 			xPoints[i] = vertex.getX();
 			yPoints[i] = vertex.getY();

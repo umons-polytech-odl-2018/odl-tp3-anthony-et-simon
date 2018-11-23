@@ -16,7 +16,8 @@ public class ShapeDraw {
 	private JRadioButton circleBtn;
 	private JTextPane messageZone;
 
-	public ShapeDraw() {
+	public ShapeDraw()
+	{
 		$$$setupUI$$$();
 		drawingArea.addMouseListener(new MouseAdapter() {
 			private Point start;

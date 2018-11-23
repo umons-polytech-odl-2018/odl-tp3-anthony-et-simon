@@ -4,7 +4,8 @@ import java.awt.*;
 
 public class DrawingPanel extends javax.swing.JPanel
 {
-	private Drawable[] drawables = new Drawable[]{
+	private Drawable[] drawables = new Drawable[]
+		{
 		new Square(new Point(100, 100), 100)
 	};
 
@@ -12,7 +13,8 @@ public class DrawingPanel extends javax.swing.JPanel
 	protected void paintComponent(Graphics g)
 	{
 		super.paintComponent(g);
-		for (Drawable drawable : drawables) {
+		for (Drawable drawable : drawables)
+		{
 			drawable.draw(g);
 		}
 	}
