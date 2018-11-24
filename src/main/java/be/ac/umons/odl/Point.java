@@ -22,4 +22,11 @@ public class Point
 	public int getY() {
 		return y;
 	}
+
+	//ZARIOH
+	/*
+	public void setX(int a) {this.x=a;}
+
+	public void setY(int a) {this.y=a;}
+	*/
 }

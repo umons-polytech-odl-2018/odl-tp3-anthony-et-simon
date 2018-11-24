@@ -28,3 +28,4 @@ public class ConvexPolygon implements Drawable
 		g.drawPolygon(xPoints, yPoints, vertices.length);
 	}
 }
+//manque des trucs
